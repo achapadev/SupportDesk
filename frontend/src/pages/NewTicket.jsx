@@ -13,7 +13,7 @@ function NewTicket() {
   // before we set local state we want to get user from global state via useSelector
   const { user } = useSelector((state) => state.auth);
   const { isLoading, isError, isSuccess, message } = useSelector(
-    (state) => state.ticket
+    (state) => state.tickets
   );
   const [name, setName] = useState(user.name);
   const [email, setEmail] = useState(user.email);
