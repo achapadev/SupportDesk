@@ -71,9 +71,9 @@ function NewTicket() {
               onChange={(e) => setProduct(e.target.value)}
             >
               <option value="iPhone">iPhone</option>
-              <option value="iPhone">Macbook Pro</option>
-              <option value="iPhone">iMac</option>
-              <option value="iPhone">iPad</option>
+              <option value="Macbook Pro">Macbook Pro</option>
+              <option value="iMac">iMac</option>
+              <option value="iPad">iPad</option>
             </select>
           </div>
           <div className="form-group">
